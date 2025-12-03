@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sky Clothing Store - Trabalho dev Web</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Sky Clothing Store</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>      
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/jaqueta.png" alt="Bape Jacket">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">Bape Jacket Purple</p>
+                    <p class="description">Description: 
+                        PT-BR: A jaqueta apresenta o clássico camuflado roxo da BAPE, com variações de tons que deixam a peça visualmente marcante. O corte é reto, com fechamento por botões e detalhes impressos nas mangas e no peito. É uma peça leve, mas com presença — mais estilo do que funcionalidade. 
+                        EN: Purple camo jacket featuring BAPE’s iconic print, button-up front and printed details on the sleeves and chest. A lightweight piece focused on visual impact rather than warmth.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/tenis.png" alt="Air Max">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Conforto e Estilo</p>
+                    <p class="product-name">Air Max Nike Shoes</p>
+                    <p class="description">Description:
+                        PT-BR:
+                        Tênis com construção em camadas, combinando mesh e material sintético em tons de preto e cinza. O design traz o visual clássico da linha Air Max, com entressola branca e a cápsula de ar visível na lateral. É um par focado em conforto e estabilidade, mantendo um estilo discreto e versátil.
+
+                        EN:
+                        Layered construction combining mesh and synthetic materials in black and gray tones. Features the classic Air Max look, with a white midsole and visible air unit on the side. A pair centered on comfort and stability, with a clean and versatile aesthetic.</p>
+                    <button class="btn">Saiba Mais</button>
+                    </div>
+            </div>
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/bone.png" alt="Supreme Cap">
+                </div>
+                <div class="content">
+                    <p class="product-tag">O melhor do Streetwear</p>
+                    <p class="product-name">Supreme Cap</p>
+                    <p class="description">Description:
+                        PT-BR:
+                        Boné em tecido estruturado na cor oliva, com painéis costurados e ilhos metálicos laterais para ventilação. O destaque fica no patch frontal vermelho com o logo da Supreme. É uma peça simples, com construção firme e um visual direto, pensado para compor outfits casuais.
+
+                        EN:
+                        Structured olive-toned cap with stitched panels and metal side eyelets for ventilation. The front red patch with the Supreme logo stands out as the main detail. A straightforward piece with solid construction, meant to complement casual outfits.</p>
+                    <button class="btn">Saiba Mais</button>
+                    </div>
+            </div>                        
+        </div>
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
